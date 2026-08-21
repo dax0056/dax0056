@@ -10,6 +10,7 @@
 <br/>
 
 [![Status](https://img.shields.io/badge/Status-Active%20Engineering-238636?style=flat-square)]()
+[![Series](https://img.shields.io/badge/Series-DAX%20Agent%20Engineering-818cf8?style=flat-square)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 
@@ -59,47 +60,52 @@ Our work is guided by five core principles:
 
 ---
 
-## 🏗️ What We Build
+## 🏗️ The DAX Agent Engineering Series
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>🧠 Local AI Agents</h3>
-      <p>Modular reference runtimes featuring multi-backend inference routing (Ollama, vLLM, mock), dynamic task decomposition, episodic memory, and sandboxed workspace tools.</p>
-      <p>👉 <a href="https://github.com/dax0056/nexus-agent"><b>Explore nexus-agent &rarr;</b></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>💻 Coding Agents</h3>
-      <p>Autonomous code modification engines with safe repository indexing, atomic unified diff patching, AST syntax validation, and human-in-the-loop approval gates.</p>
-      <p>👉 <a href="https://github.com/dax0056/micro-coding-agent"><b>Explore micro-coding-agent &rarr;</b></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🖥️ Computer Agents</h3>
-      <p>Sandboxed OS automation agents with window discovery, application allowlists, bounded screen coordinates, and immutable SHA-256 audit logging.</p>
-      <p>👉 <a href="https://github.com/dax0056/desktop-action-agent"><b>Explore desktop-action-agent &rarr;</b></a></p>
-    </td>
-  </tr>
-</table>
+```
+                                  +-----------------------------+
+                                  |     USER GOAL & CONTEXT     |
+                                  +--------------+--------------+
+                                                 |
+                                                 v
+                      +----------------------------------------------------+
+                      |     FLAGSHIP AGENT RUNTIME: nexus-agent            |
+                      |  • Dynamic Task Planner    • Local Model Router    |
+                      |  • Two-Tier Memory Store   • Safety Policy Engine  |
+                      +--------------------------+-------------------------+
+                                                 |
+                                [ Dispatches To Specialized Tools ]
+                                                 |
+                     +---------------------------+---------------------------+
+                     |                                                       |
+                     v                                                       v
++------------------------------------------+    +------------------------------------------+
+|      CODE TOOLING: micro-coding-agent    |    |   DESKTOP TOOLING: desktop-action-agent  |
+| • Safe Workspace Reader                  |    | • Window Discovery & Focus Manager       |
+| • Pre-Flight Unified Diff Dry-Runs       |    | • Process Whitelist & Command Filter     |
+| • Human-in-the-Loop Approval Gating      |    | • Bounded Input Simulation (Click/Type)  |
+| • AST Syntax Integrity Verification      |    | • Cryptographic SHA-256 Audit Trail      |
++------------------------------------------+    +------------------------------------------+
+```
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Repositories & Architecture Breakdown
 
-| Project | Purpose | Why It Exists | Tech Stack | Status |
-| :--- | :--- | :--- | :--- | :---: |
-| [**nexus-agent**](https://github.com/dax0056/nexus-agent) | Local AI Agent Reference Architecture | Demonstrates privacy-first agent execution with multi-model routing and memory. | Python, Ollama, Pytest, JSON Schema | `Public` |
-| [**micro-coding-agent**](https://github.com/dax0056/micro-coding-agent) | Verifiable AI Coding Engine | Replaces fuzzy code rewrites with AST syntax validation and dry-run diffs. | Python, AST Parser, Unified Diff | `Public` |
-| [**desktop-action-agent**](https://github.com/dax0056/desktop-action-agent) | Safe Sandboxed Computer Agent | Enables desktop interaction bound by permission allowlists and SHA-256 audit trails. | Python, OS Abstraction, SHA-256 | `Public` |
+### 🧠 Flagship: [nexus-agent](https://github.com/dax0056/nexus-agent)
+> **Local-First AI Agent Reference Core**  
+> Dynamic model routing (Ollama / vLLM / mock), task decomposition, 2-tier context & episodic memory, and bounded workspace tools.  
+> `Status`: Public • `Tests`: 7/7 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax0056/nexus-agent)
 
----
+### 💻 Specialized Tooling: [micro-coding-agent](https://github.com/dax0056/micro-coding-agent)
+> **Deterministic AI Coding Engine**  
+> Workspace indexing, atomic diff patching, pre-flight AST syntax verification, and approval gating.  
+> `Status`: Public • `Tests`: 12/12 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax0056/micro-coding-agent)
 
-## 🌐 The Bigger Picture
-
-The goal isn't just to build larger models. The goal is to build systems that translate intelligence into reliable, verifiable action.
-
-```
- User Goal ──► Agent ──► Task Planner ──► Model Router ──► Tool Dispatch ──► Execution ──► Verification ──► Result
-```
+### 🖥️ Specialized Tooling: [desktop-action-agent](https://github.com/dax0056/desktop-action-agent)
+> **Safe Sandboxed Desktop Automation**  
+> Window management, application allowlists, bounded screen inputs, and tamper-evident SHA-256 audit logs.  
+> `Status`: Public • `Tests`: 10/10 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax0056/desktop-action-agent)
 
 ---
 
