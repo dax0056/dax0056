@@ -139,5 +139,7 @@ These repositories are independent reference implementations designed to explore
 
 ## 📬 Connect
 
+- **LinkedIn**: [Mohamed Musa Ahmed](https://www.linkedin.com/in/mohamed-musa-marouf-ahmed-7030561b8/)
 - **GitHub**: [@dax0056](https://github.com/dax0056)
 - **Security & Inquiries**: `dax0056@users.noreply.github.com`
+
