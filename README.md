@@ -12,6 +12,7 @@
 <br/>
 
 [![Status](https://img.shields.io/badge/Status-Active%20Engineering-238636?style=flat-square)]()
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-dax0056.github.io-38BDF8?style=flat-square&logo=googlechrome&logoColor=white)](https://dax0056.github.io)
 [![Series](https://img.shields.io/badge/Series-DAX%20Agent%20Engineering-818cf8?style=flat-square)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
