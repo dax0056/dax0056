@@ -12,7 +12,7 @@
 <br/>
 
 [![Status](https://img.shields.io/badge/Status-Active%20Engineering-238636?style=flat-square)]()
-[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-dax-eng.github.io-38BDF8?style=flat-square&logo=googlechrome&logoColor=white)](https://dax-eng.github.io)
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-dax0056.github.io-38BDF8?style=flat-square&logo=googlechrome&logoColor=white)](https://dax0056.github.io)
 [![Series](https://img.shields.io/badge/Series-DAX%20Agent%20Engineering-818cf8?style=flat-square)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -95,20 +95,20 @@ Our work is guided by five core principles:
 
 ## 🚀 Repositories & Architecture Breakdown
 
-### 🧠 Flagship: [nexus-agent](https://github.com/dax-eng/nexus-agent)
+### 🧠 Flagship: [nexus-agent](https://github.com/dax0056/nexus-agent)
 > **Local-First AI Agent Reference Core**  
 > Dynamic model routing (Ollama / vLLM / mock), task decomposition, 2-tier context & episodic memory, and bounded workspace tools.  
-> `Status`: Public • `Tests`: 7/7 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax-eng/nexus-agent)
+> `Status`: Public • `Tests`: 7/7 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax0056/nexus-agent)
 
-### 💻 Specialized Tooling: [micro-coding-agent](https://github.com/dax-eng/micro-coding-agent)
+### 💻 Specialized Tooling: [micro-coding-agent](https://github.com/dax0056/micro-coding-agent)
 > **Deterministic AI Coding Engine**  
 > Workspace indexing, atomic diff patching, pre-flight AST syntax verification, and approval gating.  
-> `Status`: Public • `Tests`: 12/12 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax-eng/micro-coding-agent)
+> `Status`: Public • `Tests`: 12/12 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax0056/micro-coding-agent)
 
-### 🖥️ Specialized Tooling: [desktop-action-agent](https://github.com/dax-eng/desktop-action-agent)
+### 🖥️ Specialized Tooling: [desktop-action-agent](https://github.com/dax0056/desktop-action-agent)
 > **Safe Sandboxed Desktop Automation**  
 > Window management, application allowlists, bounded screen inputs, and tamper-evident SHA-256 audit logs.  
-> `Status`: Public • `Tests`: 10/10 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax-eng/desktop-action-agent)
+> `Status`: Public • `Tests`: 10/10 Passing • `CI`: Passing • [Explore Repository &rarr;](https://github.com/dax0056/desktop-action-agent)
 
 ---
 
@@ -141,6 +141,6 @@ These repositories are independent reference implementations designed to explore
 ## 📬 Connect
 
 - **LinkedIn**: [Mohamed Musa Ahmed](https://www.linkedin.com/in/mohamed-musa-marouf-ahmed-7030561b8/)
-- **GitHub**: [@dax-eng](https://github.com/dax-eng)
-- **Security & Inquiries**: `dax-eng@users.noreply.github.com`
+- **GitHub**: [@dax0056](https://github.com/dax0056)
+- **Security & Inquiries**: `dax0056@users.noreply.github.com`
 
