@@ -1,9 +1,11 @@
 <div align="center">
 
-# DAX
-### AI & Agent Developer
+<img src="assets/dax-avatar.png" width="130" height="130" alt="DAX Avatar" style="border-radius: 50%;" />
 
-**Building local-first AI systems that can reason, use tools, work with software, and verify what they do.**
+# DAX
+### AI & Agent Engineer
+
+**Building local-first AI agents, developer tools, and safe computer automation.**
 
 *“I build agents that do more than generate text — they plan, act, verify, and improve.”*
 

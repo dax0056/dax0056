@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="60%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0b0f17"/>
+    </radialGradient>
+    
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Circular Outer Frame -->
+  <circle cx="256" cy="256" r="250" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="4"/>
+  <circle cx="256" cy="256" r="236" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="8 6"/>
+
+  <!-- Outer Hexagon Node Ring -->
+  <polygon points="256,56 426,156 426,356 256,456 86,356 86,156" fill="none" stroke="#1e3a5f" stroke-width="2.5"/>
+
+  <!-- Orbital Node Markers (The 3 Pillars) -->
+  <!-- Top Node: Intelligence -->
+  <circle cx="256" cy="56" r="10" fill="#38bdf8" filter="url(#glow)"/>
+  <!-- Right Node: Tools -->
+  <circle cx="426" cy="356" r="10" fill="#60a5fa" filter="url(#glow)"/>
+  <!-- Left Node: Verification -->
+  <circle cx="86" cy="356" r="10" fill="#34d399" filter="url(#glow)"/>
+
+  <!-- Inner Dark Shield Plate -->
+  <polygon points="256,106 386,186 386,326 256,406 126,326 126,186" fill="#111827" stroke="#38bdf8" stroke-width="3" filter="url(#glow)"/>
+
+  <!-- Subtle grid lines inside shield -->
+  <line x1="126" y1="256" x2="386" y2="256" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="256" y1="106" x2="256" y2="406" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Central DAX Monogram -->
+  <text x="256" y="278" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="82" font-weight="900" fill="#f8fafc" text-anchor="middle" letter-spacing="4">DAX</text>
+  <text x="256" y="322" font-family="monospace" font-size="14" font-weight="bold" fill="#38bdf8" text-anchor="middle" letter-spacing="3">AGENT ENGINEERING</text>
+</svg>
